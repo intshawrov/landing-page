@@ -1,0 +1,270 @@
+:root{
+  --orange-color: #DA722C;
+  --light-color: #E8F7FB;
+  --dark-blue-color: #023047;
+  --dark-color: #070917;
+  --light-blue-color: #6F7DFB;
+} 
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper{
+  max-width: 1134px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+
+.btn{
+  padding: 16px 32px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn.dark{
+  background: var(--dark-blue-color);
+}
+
+.btn.light{
+  background: var(--orange-color);
+}
+
+.btn.enroll-icon::before{
+  content: url(images/PencilAlt.svg);
+  position: absolute;
+  top: 30%;
+  left: 32px;
+  transform: translate(-30%);
+  -webkit-transform: translate(-30%);
+  -moz-transform: translate(-30%);
+  -ms-transform: translate(-30%);
+  -o-transform: translate(-30%);
+}
+
+.btn.enroll-icon{
+  padding-left: 60px;
+}
+
+/* Header */
+
+header{
+  background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+  height: 100vh;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 1134px;
+  top: 36px;
+  z-index: 100;
+}
+
+nav .logo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #fff;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li a{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero-section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.right{
+  display: flex;
+}
+
+
+.hero-section .left h1{
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 125%;
+  margin-bottom: 0px;
+}
+
+.hero-section .left p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+  line-height: 200%;
+  margin-bottom: 30px;
+}
+
+.hero-section .left{
+  width: 475px;
+}
+
+.hero-section .right{
+  align-self: flex-end;
+}
+
+.hero-section .right img{
+  width: 500px;
+  vertical-align: middle;
+}
+
+
+/* Achivments Cards */
+
+/* .achivments-card .content{
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  background: #fff;
+  padding: 8px 32px;
+}
+
+.achivments-card.students-enrolled{
+  left: 47%;
+  top: 330px;
+}
+
+.achivments-card h3{
+  color: var(--dark-blue-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  text-align: center;
+}
+
+.achivments-card p{
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--dark-blue-color);
+} */
+
+/* Testomonial Section */
+
+section{
+  margin-top: 100px;
+}
+
+h2{
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 120px;
+  margin: 0;
+  color: var(--dark-blue-color);
+}
+
+h2.light{
+  color: #ffffff;
+}
+
+section p{
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--dark-blue-color);
+  margin: 12px 0;
+}
+
+.testomonial-section{
+  display: flex;
+  gap: 100px;
+}
+
+.testomonial-section .mobile{
+  display: none;
+
+}
+
+.testomonial-section .right{
+  display: inline;
+  align-items: center;
+}
+
+.testomonial-section .testomonial-card{
+  width: 422px;
+  background: #ffffff;
+  box-shadow: 0 9px 36px rgb(0, 0, 0, 0.2);
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  margin-bottom: 50px;
+}
+
+.testomonial-section .testomonial-card .content{
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #6F7DFB;
+  padding: 24px 32px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
+.testomonial-section .testomonial-card .abc-info{
+  display: flex;
+  align-items: center;
+}
+
+.testomonial-section .testomonial-card .img{
+
+  margin-right: 0px;
+
+}
