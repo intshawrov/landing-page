@@ -259,6 +259,18 @@ section p{
   -o-border-radius: 24px 24px 0 0;
 }
 
+.testomonial-section .testomonial-card:last-child::before{
+  left: 40px;
+  top: -50px;
+  border-radius: 0 0 24px 24px;
+  -webkit-border-radius: 0 0 24px 24px;
+  -moz-border-radius: 0 0 24px 24px;
+  -ms-border-radius: 0 0 24px 24px;
+  -o-border-radius: 0 0 24px 24px;
+  height: calc(100% + 90px);
+  z-index: -1;
+}
+
 .testomonial-section .testomonial-card .content{
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -293,13 +305,19 @@ section p{
     font-family: "Railway", sans-serif;
     font-weight: 900;
     font-size: 24px;
-    line-height: 120px;
+    line-height: 120%;
     margin: 0;
     color: var(--dark-blue-color);
 }
 
 .testomonial-section .testomonial-card .info{
-   padding: 24px 32px; 
+   padding: 24px 32px;
+   background: #fff;
+   border-radius: 24px 24px;
+   -moz-border-radius: 24px 24px;
+   -ms-border-radius: 24px 24px;
+   -o-border-radius: 24px 24px;
+   -webkit-border-radius: 24px 24px;
 }
 
 .testomonial-section .testomonial-card .info p.company{
