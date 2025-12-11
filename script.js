@@ -1,1 +1,1 @@
-"use strice"
+"use strict"
