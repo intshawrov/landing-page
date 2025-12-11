@@ -347,3 +347,16 @@ section p{
 .testomonial-section .features{
   margin-bottom: 30px;
 }
+
+/* Courses Section */
+
+.course-section{
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308C 100%);
+  padding: 70px 0;
+
+}
+
+.course-section h2{
+  text-align: center;
+
+}
