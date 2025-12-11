@@ -360,3 +360,8 @@ section p{
   text-align: center;
 
 }
+
+.course-section .course-cards{
+  display: flex;
+  gap: 70px;
+}
