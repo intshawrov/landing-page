@@ -393,3 +393,18 @@ section p{
   margin: 40px 0;
 }
 
+/* Course Duration Style */
+.course-section .course-card .duration{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--dark-blue-color);
+  background: var(--light-blue-color);
+  padding: 8px 16px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
