@@ -408,3 +408,35 @@ section p{
   -o-border-radius: 24px;
 }
 
+/* Media Queries */
+
+@media only screen and (max-width: 768px){
+  .hero-section{
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .hero-section .right{
+    align-self: center;
+  }
+
+  .testomonial-section{
+    flex-direction: column;
+  }
+
+  .testomonial-section .mobile{
+    display: inline;
+    margin-bottom: 50px;
+  }
+
+  .testomonial-section .right{
+    display: none;
+  }
+
+  .course-section .course-cards{
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
