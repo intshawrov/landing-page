@@ -364,5 +364,37 @@ section p{
 .course-section .course-cards{
   display: flex;
   gap: 70px;
-  
+}
+
+.course-section .course-card{
+  background: #ffffff;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  width: 350px;
+  box-shadow: 0 9px 36px rgb(0, 0, 0, 0.2);
+}
+
+.course-section .course-card img{
+  width: 100%;
+  border-radius: 24px 24px 0 0;
+  -webkit-border-radius: 24px 24px 0 0;
+  -moz-border-radius: 24px 24px 0 0;
+  -ms-border-radius: 24px 24px 0 0;
+  -o-border-radius: 24px 24px 0 0;
+}
+
+.course-section .course-card .content{
+  padding: 24px 32px;
+}
+
+.course-section .course-card .content h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 120%;
+  margin: 0;
+  color: var(--dark-blue-color);
 }
